@@ -1,0 +1,55 @@
+.weather-report-container {
+    margin: 55px;
+
+    .weather-lbl {
+        color: black;
+    }
+    
+    .city-inp {
+       width: 192px;      
+    }
+
+    #autocomplete-container {
+        margin-top: -2px;
+
+        .auto-complete-item {
+            border: 1px solid black;
+            margin-left: 465px;
+            width: 192px;
+        }
+    }
+
+    .city-submit-btn {
+        margin-left: 28px;
+    }
+
+    .weather-card {
+        display: inline-block;
+        background-color: #003b8057;
+        margin-top: 26px;
+        width: 200px;
+        border: 2px solid beige;
+        border-radius: 13px;
+        height: 237px;
+
+        a {
+            color: black;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        a:active {
+            text-decoration: none;
+        }
+    }
+}
